@@ -1,0 +1,25 @@
+{
+  "name": "download-torrent-cli",
+  "version": "1.0.0",
+  "description": "CLI for downloading torrents",
+  "author": "Tuan Dinh",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "torrent-cli": "node -r index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1",
+    "prettier-bytes": "^1.0.4",
+    "webtorrent": "^0.115.3"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
